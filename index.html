@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+    <title>week3 task on forms_input</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+    <h1>Upskill Week(3) Task</h1>
+</header>
+<!--personal content-->
+<div class="Personalinfo">
+    <form method="" action="">
+        <section>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+        <label for="user email">Email</label><br>
+        <input type="email" id="user email" name="email" placeholder="Enter your email"><br><br>
+        <label for="age">Age</label><br>
+        <input type="text" id="age" name="age" placeholder="Enter your age"><br>
+        </section>
+
+       <h4>Which option best describes you?</h4>
+        <select name="profession">
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="admin">Admin</option>
+            <option value="accountant">Accountant</option><br>
+        </select>
+<!----------------Feedback section ---------------->
+        <h4>Would you recommend Upskill to a friend?</h4>
+        <div>
+            <input type="radio" id="yes" name="friend" value="yes">
+            <label for="yes">Yes</label><br>
+            <input type="radio" id="no" name="friend" value="no">
+            <label for="no">No</label><br>
+            <input type="radio" id="maybe" name="friend" value="maybe">
+            <label for="maybe">Maybe</label>   
+        </div>
+
+        <h4>Languages and frameworks known <i>(check all that apply)</i></h4>
+        <div>
+            <input type="checkbox" id="C" name="language" value="C">
+            <label for="C">C</label><br>
+            <input type="checkbox" id="C++" name="language" value="C++">
+            <label for="C++">C++</label><br>
+            <input type="checkbox" id="C#" name="language" value="C#">
+            <label for="C#">C#</label><br>
+            <input type="checkbox" id="Java" name="language" value="Java">
+            <label for="Java">Java</label><br>
+            <input type="checkbox" id="Python" name="language" value="Python">
+            <label for="Python">Python</label><br>
+            <input type="checkbox" id="Javascript" name="language" value="Javascript">
+            <label for="Javascript">Javascript</label><br>
+            <input type="checkbox" id="React" name="language" value="React">
+            <label for="React">React</label><br>
+            <input type="checkbox" id="Angular" name="language" value="Angular">
+            <label for="Angular">Angular</label><br>
+            <input type="checkbox" id="Django" name="language" value="Django">
+            <label for="Django">Django</label><br>
+            <input type="checkbox" id="Spring" name="language" value="Spring">
+            <label for="Spring">Spring</label><br>
+        </div>
+        
+        <h4>Any comments or suggestions</h4>
+        <textarea>Write here...</textarea>  
+        <br>
+    
+
+        <input type="submit" value="Submit">
+
+    </form>
+</div>
+</body>
+</html>
